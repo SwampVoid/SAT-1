@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Alarm Security System</title>
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Security System</title>
+</head>
+<body>
+    <div class="phoneFrame">
+        <div class="pageContainer">
+            <div class="notch"></div>
+            <div class="statusBas">
+                <span style="margin-left: 1.1vh">10:30</span>
+                <div class="levelBar">
+                    <img src="Icons/CellularConnection.svg" alt="CelluarIcon">
+                    <img src="Icons/Wifi.svg" alt="WifiIcon">
+                    <img src="Icons/Battery.svg" alt="batteryIcon">
+                </div>
+            </div>
+            <h1 class="headerText">Alarm Security System</h1>
+
+            <div class="contentContainer">
+                <div class="cameraOverView">
+                    <span class="cameraLocationText">Living Room</span>
+                    <div class="cameraStatusContainer">
+                        <img src="Icons/LiveRecordingLight.svg" alt="liveRec" style="margin-left: 15px; display: flex;">
+                        <span class="numberOfCameraText">4 Cameras</span>
+                    </div>
+                    <img src="Icons/profilePicture.png" alt="" class="profileIcon">
+                </div>
+
+
+                <div class="cameraContainer">
+                    <img id="cameraFeed" class="camera">
+                </div>
+                <div class="cameraGridContainer">
+                    <div class="gridBox"></div>
+                    <div class="gridBox"></div>
+                    <div class="gridBox"></div>
+                </div>
+                <img class="sliderBarrsIcon" src="Icons/SliderBars.svg" alt="sliderBarIcon">
+            </div>
+
+            <div class="actionButtonsContainer">
+                <button class="actionButtonBlock"><img src="Icons/alarm.svg"><span class="actionButtonSubText">Alarm</span></button>
+                <button class="actionButtonBlock"><img src="Icons/Ellipse 1.svg" alt=""><span class="actionButtonSubText">Power</span></button>
+                <button class="actionButtonBlock"><img src="Icons/speak.svg" alt=""><span class="actionButtonSubText">Speak</span></button>
+            </div>
+
+            <template id="noifcationTemplate">
+                <div class="noifcation">
+
+                    <div>
+                        <h1 class="motionDetecedText">Motion Detected</h1>
+                        <h6 class="subText">Kitchen</h6>
+                    </div>
+
+                    <img src="" class="noifcationPicture">
+
+                </div>
+            </template>
+
+            <div class="notifcationsCointainer">
+                
+            </div>
+
+        </div>
+
+        <div class="bottemBar">
+            <button class="navButton active" id="index">Main</button>
+            <button class="navButton" id="camera">Camera</button>
+            <button class="navButton" id="profile">Profile</button>
+            <button class="navButton" id="settings">Settings</button>
+        </div>
+    </div>
+
+    <script src="cameraClient.js"></script>
+    <script src="tabBar.js"></script>
+    <script src="notifcationsScript.js"></script>
+</body>
+</html>
