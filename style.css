@@ -16,6 +16,8 @@ body {
     overflow-x: hidden; 
 }
 
+/* hwllo*/
+
 .pageContainer::-webkit-scrollbar {
     display: none;
 }
