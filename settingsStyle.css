@@ -127,6 +127,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-items: center;
+    box-shadow: 0 4px 12px rgba(12, 12, 12, 0.4);
 }
 
 .Setting_User_Details_Frame {
@@ -137,6 +138,18 @@ body {
     border-width: 0px;
     text-align: center;
     line-height: 100px;
+    box-shadow: 0 4px 12px rgba(12, 12, 12, 0.4);
+}
+
+.profileTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    overflow: hidden;
+    margin-right: 50px;
+
 }
 
 .profilePicture {
@@ -145,9 +158,14 @@ body {
     height: 100px;
     border-radius: 100%;
     margin-left: 30px;
+
     margin-right: 10px;
+    margin-left: 10px;
+
+    margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+    box-shadow: 0 4px 12px rgba(12, 12, 12, 0.4);
 }
 
 .profileTextContainer {
@@ -155,16 +173,18 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-top: 10px;
-    width: 60%;
-    height: 20%;
+    width: 50%;
+    height: 100%;
 }
 
 .profileTextContainer .nameText {
     display: block;
     font-size: 28px;
-    font-weight: bold;
-    color: #eeeeee;
+    font-weight: normal;
+    color: #cccccc;
     margin: 0;
+    height: 28px;
+
 }
 
 .profileTextContainer .emailText {
@@ -173,4 +193,6 @@ body {
     font-weight: normal;
     color: #cccccc;
     margin: 0;
+    height: 14px;
+    margin-bottom: 90px;
 }
