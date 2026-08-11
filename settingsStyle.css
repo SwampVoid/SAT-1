@@ -127,6 +127,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-items: center;
+    box-shadow: 0 4px 12px rgba(12, 12, 12, 0.4);
 }
 
 .Setting_User_Details_Frame {
@@ -137,13 +138,17 @@ body {
     border-width: 0px;
     text-align: center;
     line-height: 100px;
+    box-shadow: 0 4px 12px rgba(12, 12, 12, 0.4);
 }
 
 .profileTextContainer {
     display: flex;
     flex-direction: column;
-    margin-top:
-    
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    overflow: hidden;
+    margin-right: 50px;
 
 }
 
@@ -152,21 +157,27 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    margin-left: auto;
+    margin-left: 25px;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+    box-shadow: 0 4px 12px rgba(12, 12, 12, 0.4);
 }
 
 .profileTextContainer .nameText {
-    display: block;
-    font-size: 10px;
-    background-color: red;
+    display: inline;
+    font-size: 30px;
+    box-sizing: border-box;
+    color: white;
+    margin-bottom: 0px;
+    height: 30px;
+    font-weight: bold;
 }
 
 .profileTextContainer .emailText {
-    display: block;
-    background-color: red;
+    display: inline;
     font-size: 10px;
+    box-sizing: border-box;
+    color: white;
     
 }
