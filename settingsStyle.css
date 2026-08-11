@@ -157,42 +157,21 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    margin-left: 30px;
-
-    margin-right: 10px;
-    margin-left: 10px;
-
+    margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    box-shadow: 0 4px 12px rgba(12, 12, 12, 0.4);
-}
-
-.profileTextContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 10px;
-    width: 50%;
-    height: 100%;
 }
 
 .profileTextContainer .nameText {
     display: block;
-    font-size: 28px;
-    font-weight: normal;
-    color: #cccccc;
-    margin: 0;
-    height: 28px;
-
+    font-size: 10px;
+    background-color: red;
 }
 
 .profileTextContainer .emailText {
     display: block;
-    font-size: 14px;
-    font-weight: normal;
-    color: #cccccc;
-    margin: 0;
-    height: 14px;
-    margin-bottom: 90px;
+    background-color: red;
+    font-size: 10px;
+    
 }
