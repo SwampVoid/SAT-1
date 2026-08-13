@@ -164,15 +164,20 @@ body {
 }
 
 .profileTextContainer .nameText {
-    display: block;
-    font-size: 10px;
-    background-color: red;
+      display: inline;
+    font-size: 30px;
+    box-sizing: border-box;
+    color: white;
+    margin-bottom: 0px;
+    height: 30px;
+    font-weight: bold;
 }
 
 .profileTextContainer .emailText {
-    display: block;
-    background-color: red;
+    display: inline;
     font-size: 10px;
+    box-sizing: border-box;
+    color: white;
     
 }
 
