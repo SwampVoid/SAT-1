@@ -190,5 +190,22 @@ body {
     background-color: #242424;
     border-width: 0px;
     font-weight: bold;
-
+}
+.AccountContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    overflow: hidden;
+    margin-right: 50px;
+}
+.accountText {
+    display: inline;
+    font-size: 30px;
+    box-sizing: border-box;
+    color: white;
+    margin-bottom: 0px;
+    height: 30px;
+    font-weight: bold;
 }
