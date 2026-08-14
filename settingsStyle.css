@@ -190,5 +190,45 @@ body {
     background-color: #242424;
     border-width: 0px;
     font-weight: bold;
+}
 
+.AccountContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: start;
+    height: 100%;
+    Width: 100%;
+    overflow: hidden;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+.accountText {
+    display: inline;
+    font-size: 30px;
+    box-sizing: border-box;
+    color: white;
+    margin-bottom: 0px;
+    height: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.AccountContainer button {
+    display: block;
+    size: 90%;
+    width: 100%;
+    padding: 16px 20px;
+    margin: 0;
+    color: white;
+    background-color: #242424;
+    border: none;
+    border-radius: 14px;
+    font-weight: normal;
+    font-size: 17px;
+    text-align: left;
+    cursor: pointer;
+    margin-bottom: 5px;
 }
