@@ -93,6 +93,24 @@ button:hover {
     align-items: center;
 }
 
+.bottemBar::after {
+    content: "";
+    position: absolute;
+    top: 15%;
+    left: 0;
+    height: 70%;
+    border-radius: 20px;
+
+    background-color: #ffffff80;
+    box-shadow: 0 4px 12px rgba(12, 12, 12, 0.4);
+
+    z-index: 1;
+
+    width: var(--slider-width);
+    transform: translateX(var(--slider-x));
+    transition: transform 0.3s ease, width 0.3s ease;
+}
+
 .navButton {
     width: 100%;
     text-align: center;
@@ -104,10 +122,35 @@ button:hover {
     font-size: medium;
 
     transition: background-color 0.5s ease;
+
+    position: relative;
+
 }
 
-.bottemBar .navButton:hover {
+.navButton span {
+    position: relative;
+    z-index: 3;
+}
+
+.bottemBar .navButton::after {
+    content: "";
+    height: 100%;
+    width: 100%;
     background-color: #ffffff80;
+    left: 0;
+    bottom: 0;
+
+    position: absolute;
+    z-index: 2;
+
+    border-radius: 50px;
+
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.bottemBar .navButton:hover::after {
+    opacity: 1;
 }
 
 .bottemBar .navButton.active {
