@@ -15,6 +15,3 @@ def addNotf():
         print("Ok")
     else:
         print("Error")
-
-#hello
-        
