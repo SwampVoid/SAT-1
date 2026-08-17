@@ -228,6 +228,8 @@ body {
     border-width: 0px;
     font-weight: 550;
     font-size: medium;
+
+
 }
 
 .bottemBar .navButton:hover {
@@ -237,6 +239,19 @@ body {
 .bottemBar .navButton.active {
     background-color: #ffffff80;
     box-shadow: 0 4px 12px rgba(12, 12, 12, 0.4);
+}
+
+.navSlider {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 70%;
+    border-radius: 20px;
+    background-color: #ffffff80;
+    box-shadow: 0 4px 12px rgba(12, 12, 12, 0.4);
+    transform: translateY(-50%);
+    transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1), width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 0;
 }
 
 .notifcationsCointainer {
