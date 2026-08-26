@@ -110,10 +110,11 @@ body {
     height: 51px;
     border-radius: 8px;
     background-color: rgba(217, 217, 217, 0.2);
-    border-width: 1px;
+
+    border-width: 0px;
     color: white;
 
-    border-color: white;
+
     transition: border-color 0.5s ease; 
 
     padding-left: 20px;
