@@ -39,6 +39,24 @@ body {
    
 }
 
+.warnText {
+    color: red;
+    position: absolute;
+    display: block;
+
+    transform: translate(-50%, -50%);
+    top: 73%;
+    left: 50%;
+
+    text-wrap-mode: nowrap;
+    font-weight: bold;
+
+    opacity: 0;
+
+    transition: opacity 0.25s ease;
+}
+
+
 .phoneFrame {
     width: 375px;
     height: 812px;
@@ -92,10 +110,11 @@ body {
     height: 51px;
     border-radius: 8px;
     background-color: rgba(217, 217, 217, 0.2);
-    border-width: 1px;
+
+    border-width: 0px;
     color: white;
 
-    border-color: white;
+
     transition: border-color 0.5s ease; 
 
     padding-left: 20px;
