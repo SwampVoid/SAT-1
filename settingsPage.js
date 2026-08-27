@@ -5,3 +5,8 @@ logOutBtn.addEventListener("click", function() {
 })
 
 
+var privacyPollcyBtn = document.getElementById("privacy")
+
+privacyPollcyBtn.addEventListener("click", function() {
+    window.location.href = "privacyPolicy.html"
+})

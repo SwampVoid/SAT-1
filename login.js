@@ -2,6 +2,7 @@ var loginBtn = document.getElementById("loginBtn")
 var emailInput = document.getElementById("emailInput")
 var passWord = document.getElementById("passWordInput")
 var warnText = document.getElementById("warnText")
+var privacyBtn = document.getElementById("privacyBtn")
 
 function checkDetails() {
     if (emailInput.value == "Admin" && passWord.value == "Admin") {
@@ -31,4 +32,8 @@ passWord.addEventListener("keydown", function(event)  {
 
         checkDetails();
     }
+})
+
+privacyBtn.addEventListener("click", function() {
+    window.location.href = "privacyPolicy.html"
 })
